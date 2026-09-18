@@ -151,7 +151,6 @@ DJANGO_SECRET_KEY=django-insecure-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 From the project root, run:
 
 ```bash
-python manage.py makemigrations
 python manage.py migrate
 ```
 
