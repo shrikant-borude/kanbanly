@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+* {
+    font-family: 'Nunito';
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #18191f;
+  color: white;
+}
+
+#appName {
+  text-align: center;
+  padding: 20px;
+  color: #f5f35d;
+  text-decoration: underline;
+}
+
+#header {
+  font-size: 30px;
+  text-align: center;
+}
+
+.horizontal {
+  height: 1px;
+  background-color: #3a3b45;
+}
+
+
+/* Main lists container */
+
+.lists {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+
+/* Individual list */
+
+.list {
+  border-top: #f5f35d 4px solid;
+  background-color: #242630;
+  color: #ffffff;
+  width: 240px;
+  min-width: 240px;
+  min-height: 130px;
+  padding: 12px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+/* List title */
+
+.list > span:first-child {
+  font-size: 17px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+
+/* Buttons */
+
+button {
+  background-color: #f5f35d;
+  color: black;
+  border: none;
+  padding: 5px 9px;
+  margin: 2px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d4df3f;
+}
+
+
+/* Cards inside a list */
+
+ul {
+  padding-left: 0;
+  margin-top: 10px;
+  list-style: none;
+}
+
+li {
+  background-color: #30323d;
+  color: #ffffff;
+  margin-bottom: 6px;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+}
+
+li span {
+  flex: 1;
+  font-weight: 500;
+}
+
+
+/* Board Form */
+
+.boardForm {
+  padding-top: 20px;
+  display: flex;
+  margin-left: 20px;
+}
+
+.boardForm form {
+  background-color: #242630;
+  color: #ffffff;
+  width: 340px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.boardForm h2 {
+  margin-top: 0;
+  font-size: 19px;
+}
+
+.boardForm input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 4px 0 8px;
+  background-color: #30323d;
+  color: #ffffff;
+  border: 1px solid #4a4c5a;
+  font-size: 13px;
+}
+
+.boardForm input:focus {
+  outline: none;
+  border-color: #f5f35d;
+}
+
+.boardTitle {
+  font-family: "Nunito";
+  margin-left: 40px;
+}
+
+.boardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-header {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+
+.left-header > button {
+  height: fit-content;
+  width: fit-content;
+}
+
+/*  List Form */
+
+.listForm {
+  padding: 20px;
+  display: flex;
+}
+
+.listForm form {
+  background-color: #242630;
+  color: #ffffff;
+
+  width: 340px;
+  padding: 16px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.listForm h2 {
+  margin-top: 0;
+  font-size: 19px;
+}
+
+.listForm input {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 8px;
+  margin: 4px 0 8px;
+
+  background-color: #30323d;
+  color: #ffffff;
+
+  border: 1px solid #4a4c5a;
+
+  font-size: 13px;
+}
+
+.listForm input:focus {
+  outline: none;
+  border-color: #f5f35d;
+}
+
+
+/* Card Form */
+
+.cardForm {
+  padding: 20px;
+  display: flex;
+}
+
+.cardForm form {
+  background-color: #242630;
+  color: #ffffff;
+  width: 340px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cardForm h1 {
+  margin-top: 0;
+  font-size: 19px;
+}
+
+.cardForm input,
+.cardForm textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 4px 0 8px;
+  background-color: #30323d;
+  color: #ffffff;
+  border: 1px solid #4a4c5a;
+  font-size: 13px;
+}
+
+.cardForm textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.cardForm input:focus,
+.cardForm textarea:focus {
+  outline: none;
+  border-color: #f5f35d;
+}
+
+
+/* Home Page */
+
+.home h1 {
+  margin-left: 20px;
+}
+
+.addBoardButton {
+  background-color: #f5f35d;
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.addBoardButton:hover {
+  background-color: #d4df3f;
+}
+
+
+/* Boards container */
+
+.boards {
+  display: flex;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+
+/* Individual board */
+
+.board {
+  background-color: #242630;
+  color: #ffffff;
+  margin-left: 20px;
+  width: 240px;
+  min-height: 100px;
+  padding: 12px;
+  box-sizing: border-box;
+  border-top: #f5f35d 4px solid;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+}

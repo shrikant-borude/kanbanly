@@ -1,0 +1,52 @@
+# Python / Django
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Django database
+db.sqlite3
+db.sqlite3-journal
+
+# Django logs
+*.log
+
+# Collected static files
+staticfiles/
+media/
+
+# Environment variables
+
+.env
+.env.*
+!.env.example
+
+# React / Node
+
+node_modules/
+frontend/node_modules/
+
+# React build
+frontend/build/
+frontend/dist/
+
+# Node logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# VS Code / IDE
+
+.vscode/
+.idea/
+
+# OS
+
+.DS_Store
+Thumbs.db
